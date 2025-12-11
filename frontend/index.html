@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>AmigoFiel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 6px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>AmigoFiel</h1>
+
+<label>Nome</label>
+<input id="nome">
+
+<label>Tipo</label>
+<select id="tipo">
+    <option value="" selected>Selecionar</option>
+    <option value="CACHORRO">Cachorro</option>
+    <option value="GATO">Gato</option>
+</select>
+
+<label>Sexo</label>
+<select id="sexo">
+    <option value="" selected>Selecionar</option>
+    <option value="MACHO">Macho</option>
+    <option value="FEMEA">Fêmea</option>
+</select>
+
+<label>Endereço</label>
+<input id="endereco">
+
+<label>Idade</label>
+<input id="idade" type="number">
+
+<label>Peso</label>
+<input id="peso" type="number">
+
+<label>Raça</label>
+<input id="raca">
+
+<button onclick="enviar()">Enviar</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
